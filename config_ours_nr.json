@@ -1,0 +1,31 @@
+{
+  "model_name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+  "max_length": 16384,
+  "datasets": [
+    {
+      "name": "DongfuJiang/hle_text_only",
+      "split": "test[:2000]",
+      "columns": ["question", "answer" ]
+    },
+    {
+      "name": "llm-2025-sahara/OlymMATH-en-with-reasoning",
+      "split": "train[:1000]",
+      "columns": ["question","answer"]
+    },
+    {
+      "name": "llm-2025-sahara/Omni-MATH-imo-imc-with-reasoning2",
+      "split": "train[:1000]",
+      "columns": ["question","answer"]
+    },
+    {
+      "name": "llm-2025-sahara/u-math-with-reasoning",
+      "split": "train[:1000]",
+      "columns": ["question","answer"]
+    },
+    {
+      "name": "llm-2025-sahara/LiveMathBench-en-with-reasoning",
+      "split": "train[:1000]",
+      "columns": ["question","answer"]
+    }
+  ]
+}
