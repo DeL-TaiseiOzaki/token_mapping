@@ -1,0 +1,16 @@
+{
+  "model_name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+  "max_length": 16384,
+  "datasets": [
+    {
+      "name": "DongfuJiang/hle_text_only",
+      "split": "test[:2000]",
+      "columns": ["question", "answer" ]
+    },
+    {
+      "name": "DeL-TaiseiOzaki/hle-failed-problems-byQwen3-32b",
+      "split": "train[:1500]",
+      "columns": ["question","answer"]
+    }
+  ]
+}

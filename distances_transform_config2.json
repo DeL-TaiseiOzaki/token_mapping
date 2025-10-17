@@ -1,0 +1,80 @@
+{
+  "config_file": "config2.json",
+  "mode": "transform",
+  "dataset_names": [
+    "hle_text_only",
+    "hle-failed-problems-byQwen3..."
+  ],
+  "full_dataset_names": [
+    "DongfuJiang/hle_text_only",
+    "DeL-TaiseiOzaki/hle-failed-problems-byQwen3-32b"
+  ],
+  "distances": {
+    "PCA_1000d": {
+      "euclidean": [
+        [
+          0.0,
+          8.667305992427499
+        ],
+        [
+          8.667305992427499,
+          0.0
+        ]
+      ],
+      "cosine": [
+        [
+          0.0,
+          0.44462761787260985
+        ],
+        [
+          0.44462761787260985,
+          0.0
+        ]
+      ]
+    },
+    "PCA_2d": {
+      "euclidean": [
+        [
+          0.0,
+          7.966852138304901
+        ],
+        [
+          7.966852138304901,
+          0.0
+        ]
+      ],
+      "cosine": [
+        [
+          0.0,
+          1.8761074903833528
+        ],
+        [
+          1.8761074903833528,
+          0.0
+        ]
+      ]
+    },
+    "UMAP_2d": {
+      "euclidean": [
+        [
+          0.0,
+          0.038373105227947235
+        ],
+        [
+          0.038373105227947235,
+          0.0
+        ]
+      ],
+      "cosine": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  }
+}
