@@ -219,7 +219,10 @@ for i, ds_config in enumerate(datasets_config):
 axes[1].set_title(f"UMAP Visualization ({mode} mode, {config_file})")
 axes[1].legend(loc='best', fontsize=8)
 axes[1].grid(True, alpha=0.3)
+<<<<<<< HEAD
 axes[1].set_xlim([20, 40])
+=======
+>>>>>>> 86ca1544d3b14b152a908e058b01b4a6cb3dfaa3
 
 plt.tight_layout()
 output_file = f"visualization_{mode}.png"

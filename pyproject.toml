@@ -12,6 +12,9 @@ dependencies = [
     "numpy",
     "torch",
     "umap-learn"
+<<<<<<< HEAD
     "vllm"
     "datasets"
+=======
+>>>>>>> 86ca1544d3b14b152a908e058b01b4a6cb3dfaa3
 ]

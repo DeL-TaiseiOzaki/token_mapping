@@ -47,8 +47,28 @@ cat > config2.json << 'EOF'
       "columns": ["question", "answer" ]
     },
     {
+<<<<<<< HEAD
       "name": "DeL-TaiseiOzaki/hle-failed-problems-byQwen3-32b",
       "split": "train[:1500]",
+=======
+      "name": "llm-2025-sahara/OlymMATH-en-with-reasoning",
+      "split": "train[:1000]",
+      "columns": ["question","answer"]
+    },
+    {
+      "name": "llm-2025-sahara/Omni-MATH-imo-imc-with-reasoning2",
+      "split": "train[:1000]",
+      "columns": ["question","answer"]
+    },
+    {
+      "name": "llm-2025-sahara/u-math-with-reasoning",
+      "split": "train[:1000]",
+      "columns": ["question","answer"]
+    },
+    {
+      "name": "llm-2025-sahara/LiveMathBench-en-with-reasoning",
+      "split": "train[:1000]",
+>>>>>>> 86ca1544d3b14b152a908e058b01b4a6cb3dfaa3
       "columns": ["question","answer"]
     }
   ]
